@@ -4,7 +4,7 @@
 **vlk-jan/vlk-jan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-I'm Honza, I am a student of cybernetics and robotics at FEE CTU. I'm interested in the field of autonomous control of mobile robots on vision for robotics.
+I'm Honza, I am a student of cybernetics and robotics at FEE CTU. I'm interested in the fields of autonomous control of mobile robots and vision for robotics.
 
 ## Languages & tools
 <p align="left">
