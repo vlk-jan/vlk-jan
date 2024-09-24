@@ -1,10 +1,11 @@
-# Hi there 👋
-
 <!--
 **vlk-jan/vlk-jan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
+# Hi there 👋
 
-I'm Honza, I am a student of cybernetics and robotics at FEE CTU. I'm interested in the fields of autonomous control of mobile robots and vision for robotics.
+I'm Honza, a cybernetics and robotics student at FEE CTU. I'm interested in the fields of autonomous control of mobile agents and computer vision.
+
+I have a [webpage](https://vlk-jan.github.io) where you can view some of my publications and the subject I am a lab tutor of.
 
 ## Languages & tools
 <p align="left">
@@ -24,12 +25,3 @@ I'm Honza, I am a student of cybernetics and robotics at FEE CTU. I'm interested
     <img src="https://skillicons.dev/icons?i=vscode,vim,linux"/>
   </a>
 </p>
-
-<a href="https://github.com/vlk-jan/vlk-jan">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vlk-jan&count_private=true&hide=java,html,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
-</a>
-
-<a href="https://github.com/vlk-jan/vlk-jan">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vlk-jan&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21"/>
-</a>
-
