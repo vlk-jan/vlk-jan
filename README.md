@@ -67,3 +67,7 @@ Check out my [personal website](https://vlk-jan.github.io/) for deeper dives int
 - 🌐 Website: [vlk-jan.github.io](https://vlk-jan.github.io/)
 - 📧 Email: vlkjan6@fel.cvut.cz
 - 💼 LinkedIn: [Jan Vlk](https://www.linkedin.com/in/jan-vlk-148817237)
+
+## 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=vlk-jan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br>
+![](https://github-readme-stats.vercel.app/api?username=vlk-jan&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
