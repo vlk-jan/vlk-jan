@@ -72,7 +72,7 @@ More projects, demos, and publication details are on [vlk-jan.github.io](https:/
 - [Personal website](https://vlk-jan.github.io/)
 - [CV](https://vlk-jan.github.io/files/jan-vlk-cv.pdf)
 - [Email](mailto:vlkjan6@fel.cvut.cz)
-- [LinkedIn](https://www.linkedin.com/in/jan-vlk-148817237)
+- [LinkedIn](https://www.linkedin.com/in/vlk-jan)
 
 ## GitHub Activity
 
