@@ -1,73 +1,81 @@
-<!--
-**vlk-jan/vlk-jan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
 # Jan Vlk
 
-![Profile Banner](/assets/banner.png)
+**Autonomous systems researcher | PhD candidate in Cybernetics and Robotics**
 
-Autonomous Systems Researcher & PhD Student in Cybernetics and Robotics at [CTU Prague](https://www.cvut.cz/en). Passionate about building robust perception and control systems for robots and self-driving vehicles. With 3+ years in robotics and 5+ research projects, I'm bridging AI, sensor fusion, and real-world deployment.
+![Profile Banner](assets/banner.png)
 
-- 🔭 Currently: PhD research on physics-guided learning for terrain-aware robot control
-- 📚 Background: MSc in Cybernetics & Robotics (2023–2025), BSc (2020–2023)
-- 🏆 Achievements: 2nd Place in Porsche Engineering Student Contest (2022) & Robotour (2025)
-- ⚡ Fun fact: Brewing autonomous beer delivery bots (yes, really!)
+I am a researcher and PhD student at the [Vision for Robotics and Autonomous Systems (VRAS) Group](https://cyber.fel.cvut.cz/research/vras), [Czech Technical University in Prague](https://www.cvut.cz/en). My work connects perception and control: I build robots that understand difficult terrain, choose safe actions, and operate reliably outdoors.
 
-Check out my [personal website](https://vlk-jan.github.io/) for deeper dives into publications, projects, and more.
+Currently, I am developing physics-guided learning methods for terrain-aware robot navigation. My earlier research focused on LiDAR perception for autonomous driving, including unsupervised 4D panoptic segmentation and real-time deployment on robotic platforms.
 
-## 🔬 Research Interests
+I care about systems that survive contact with the real world. That shows up in my research and in competitions: our team placed **2nd at [Robotour 2025](https://robotika.cz/competitions/robotour/2025/en)** with an autonomous beer-delivery robot, and I placed **2nd at the Porsche Engineering Student Contest 2022** with autonomy software for a 1:10-scale vehicle.
 
-- 🤖 Control algorithms for robot navigation on dynamic terrains
-- 🚗 Real-time LiDAR processing for detection & tracking in diverse driving scenarios
-- 👁️ Multi-sensor fusion (LiDAR + Camera + Depth) for resilient perception
-- 🌳 Outdoor robotics: Semantic segmentation, localization, and path planning
+## Research
 
-*(Publications coming soon – hopefully)*
+My current interests include:
 
-## 🚀 Featured Projects
+- **Physics-guided learning** for terrain-aware navigation and control
+- **LiDAR perception**, especially semantic and instance segmentation in driving scenes
+- **4D panoptic segmentation**, where object identities stay consistent across time
+- **Multi-sensor fusion** combining LiDAR, cameras, and depth sensing
+- **Autonomous navigation** in unstructured outdoor environments
+- **Real-time deployment** on NVIDIA Jetson platforms, HPC clusters, and robots in the field
 
-- **[FlowSeg4D](https://github.com/ctu-vras/FlowSeg4D)**
-  4D Panoptic Segmentation: Panoptic segmentation for real-world autonomous driving applications.
-  *Tech: Python, PyTorch, HPC clusters*
+My dissertation topic is *Physics-Guided Learning for Machine Control*. The goal is to let autonomous robots exploit terrain properties obtained through perception and physics-informed neural networks, rather than treating the ground as an abstraction.
 
-- **[Road Crossing](https://github.com/vlk-jan/road_crossing)**
-  Autonomous Road Crossing: Framework for save crossing with an autonomous mobile robot.
-  *Tech: C++, BehaviorTree, ROS*
+## Selected Work
 
-- **[Online Robot Monitoring](https://github.com/aleskucera/robot_tracker)**
-  Open-source dashboard for real-time fleet monitoring and diagnostics.
-  *Tech: Python, JavaScript, CI/CD pipelines*
+### [FlowSeg4D](https://vlk-jan.github.io/publication/masters-thesis)
 
-*And many more. All projects are open-source – contributions welcome!*
+**Unsupervised 4D panoptic segmentation for LiDAR driving scenes.**
 
-## 🛠️ Skills & Tools
+FlowSeg4D, the framework from my master's thesis, combines unsupervised scene flow estimation with clustering to produce temporally consistent instance identities without labeled training data. On SemanticKITTI validation, it reaches **LSTQ 46.9** with **0 labeled training samples** and processes LiDAR sequences online.
 
-### Languages
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,cpp,latex,c,matlab,bash" />
-  </a>
-</p>
+[Code](https://github.com/ctu-vras/FlowSeg4D) | [Live visualizer](https://vlk-jan.github.io/assets/demos/semkitti-vis/) | [Thesis](http://hdl.handle.net/10467/122473)
 
-### Frameworks & Libraries
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ros,pytorch,opencv" />
-  </a>
-</p>
+### [Autonomous Road Crossing](https://vlk-jan.github.io/publication/bachelors-thesis)
 
-### Tools & Platforms
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,docker,linux,vim,gazebo" />
-  </a>
-</p>
+**Behavior-tree control for a mobile robot crossing through traffic.**
 
-## 📫 Let's Connect!
+My bachelor's thesis designed and evaluated a controller that tracks surrounding vehicles, reasons about safe gaps, and decides when to cross. It was validated in simulation and on Boston Dynamics Spot, and received the **CTU FEE Dean's Award**.
 
-- 🌐 Website: [vlk-jan.github.io](https://vlk-jan.github.io/)
-- 📧 Email: vlkjan6@fel.cvut.cz
-- 💼 LinkedIn: [Jan Vlk](https://www.linkedin.com/in/jan-vlk-148817237)
+[Code](https://github.com/vlk-jan/road_crossing) | [Thesis](http://hdl.handle.net/10467/109306)
 
-## 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=vlk-jan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br>
-![](https://github-readme-stats.vercel.app/api?username=vlk-jan&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+### [SimView](https://vlk-jan.github.io/simview/)
+
+**A batched 3D simulation visualizer for robotics research.**
+
+SimView renders parallel robot simulation runs side by side or overlaid on shared terrain. It includes a Python scene-building API, a Three.js viewer, timeline playback, terrain layers, telemetry plots, and a CLI for inspection and regression checks.
+
+[Code](https://github.com/vlk-jan/simview) | [Live demo](https://vlk-jan.github.io/simview/demo/) | [PyPI](https://pypi.org/project/simview/)
+
+### [map_data](https://vras-robotour.github.io/map_data/)
+
+**OpenStreetMap data as navigation layers for autonomous robots.**
+
+This package turns OSM features into footway, road, and barrier layers suitable for planning and costmap generation. It works as a standalone Python library, includes an interactive Leaflet viewer and route planning, and can also be deployed as a ROS 2 package.
+
+[Code](https://github.com/vras-robotour/map_data) | [Live demo](https://vras-robotour.github.io/map_data/demo)
+
+More projects, demos, and publication details are on [vlk-jan.github.io](https://vlk-jan.github.io/).
+
+## Technical Skills
+
+![Core languages](https://skillicons.dev/icons?i=python,cpp,latex,matlab,bash&theme=dark)
+
+![Robotics and learning](https://skillicons.dev/icons?i=ros,pytorch,opencv&theme=dark)
+
+![Tools and platforms](https://skillicons.dev/icons?i=git,docker,linux,vim,gazebo&theme=dark)
+
+## Get in Touch
+
+- [Personal website](https://vlk-jan.github.io/)
+- [CV](https://vlk-jan.github.io/files/jan-vlk-cv.pdf)
+- [Email](mailto:vlkjan6@fel.cvut.cz)
+- [LinkedIn](https://www.linkedin.com/in/jan-vlk-148817237)
+
+## GitHub Activity
+
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vlk-jan&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=vlk-jan&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
