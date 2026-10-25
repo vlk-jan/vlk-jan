@@ -4,7 +4,7 @@
 
 ![Profile Banner](assets/banner.png)
 
-I am a researcher and PhD student at the [Vision for Robotics and Autonomous Systems (VRAS) Group](https://cyber.fel.cvut.cz/research/vras), [Czech Technical University in Prague](https://www.cvut.cz/en). My work connects perception and control: I build robots that understand difficult terrain, choose safe actions, and operate reliably outdoors.
+I am a researcher and PhD student at the [Vision for Robotics and Autonomous Systems (VRAS) Group](https://cyber.felk.cvut.cz/research/groups-teams/vras/), [Czech Technical University in Prague](https://www.cvut.cz/en). My work connects perception and control: I build robots that understand difficult terrain, choose safe actions, and operate reliably outdoors.
 
 Currently, I am developing physics-guided learning methods for terrain-aware robot navigation. My earlier research focused on LiDAR perception for autonomous driving, including unsupervised 4D panoptic segmentation and real-time deployment on robotic platforms.
 
@@ -16,10 +16,10 @@ My current interests include:
 
 - **Physics-guided learning** for terrain-aware navigation and control
 - **LiDAR perception**, especially semantic and instance segmentation in driving scenes
-- **4D panoptic segmentation**, where object identities stay consistent across time
+- **4D panoptic segmentation**, maintaining temporally consistent instance identities across point-cloud sequences
 - **Multi-sensor fusion** combining LiDAR, cameras, and depth sensing
 - **Autonomous navigation** in unstructured outdoor environments
-- **Real-time deployment** on NVIDIA Jetson platforms, HPC clusters, and robots in the field
+- **Real-time deployment** on embedded platforms (NVIDIA Jetson) and mobile robots in the field
 
 My dissertation topic is *Physics-Guided Learning for Machine Control*. The goal is to let autonomous robots exploit terrain properties obtained through perception and physics-informed neural networks, rather than treating the ground as an abstraction.
 
@@ -29,7 +29,7 @@ My dissertation topic is *Physics-Guided Learning for Machine Control*. The goal
 
 **Unsupervised 4D panoptic segmentation for LiDAR driving scenes.**
 
-FlowSeg4D, the framework from my master's thesis, combines unsupervised scene flow estimation with clustering to produce temporally consistent instance identities without labeled training data. On SemanticKITTI validation, it reaches **LSTQ 46.9** with **0 labeled training samples** and processes LiDAR sequences online.
+Developed for my master's thesis, FlowSeg4D combines unsupervised scene flow estimation with clustering to produce temporally consistent instance identities without labeled training data. On the SemanticKITTI validation benchmark, it achieves an **LSTQ of 46.9** with **zero labeled training samples** while processing LiDAR sequences online.
 
 [Code](https://github.com/ctu-vras/FlowSeg4D) | [Live visualizer](https://vlk-jan.github.io/assets/demos/semkitti-vis/) | [Thesis](http://hdl.handle.net/10467/122473)
 
@@ -37,7 +37,7 @@ FlowSeg4D, the framework from my master's thesis, combines unsupervised scene fl
 
 **Behavior-tree control for a mobile robot crossing through traffic.**
 
-My bachelor's thesis designed and evaluated a controller that tracks surrounding vehicles, reasons about safe gaps, and decides when to cross. It was validated in simulation and on Boston Dynamics Spot, and received the **CTU FEE Dean's Award**.
+For my bachelor's thesis, I developed and evaluated a behavior-tree controller that tracks surrounding vehicles, reasons about safe crossing gaps, and decides when to cross. The system was validated both in simulation and on a Boston Dynamics Spot robot, earning the **CTU FEE Dean's Award**.
 
 [Code](https://github.com/vlk-jan/road_crossing) | [Thesis](http://hdl.handle.net/10467/109306)
 
